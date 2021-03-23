@@ -14,6 +14,15 @@
 
 body {
     font-family: 'Rubik Mono One', sans-serif;
+    text-align: center;
+}
+
+.pos-rel {
+    position: relative;
+}
+
+.text-green {
+    color: green;
 }
 
 
@@ -23,6 +32,7 @@ nav>ul {
     position: fixed;
     right: 0;
     top: 0;
+    z-index: 1;
     margin: 30px;
 }
 
@@ -37,9 +47,8 @@ li {
 nav a {
     display: inline-block;
     position: relative;
-    z-index: 1;
-    padding: 2em;
-    margin: -2em;
+    padding: 1em;
+    margin: -1em;
     font-size: 30px;
     text-decoration: none;
     color: black;
@@ -50,6 +59,18 @@ nav a {
 
 section {
     height: 100vh;
+}
+
+.img-container {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h2 {
+    font-size: 44px;
+    color: yellow;
 }
 
 #first {
