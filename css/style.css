@@ -12,6 +12,42 @@
     padding: 0;
 }
 
+body {
+    font-family: 'Rubik Mono One', sans-serif;
+}
+
+
+/* NAV */
+
+nav>ul {
+    position: fixed;
+    right: 0;
+    top: 0;
+    margin: 30px;
+}
+
+li {
+    display: inline-block;
+    padding: 30px;
+    list-style: none;
+    background-color: white;
+    border-radius: 50%;
+}
+
+nav a {
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    padding: 2em;
+    margin: -2em;
+    font-size: 30px;
+    text-decoration: none;
+    color: black;
+}
+
+
+/* Main */
+
 section {
     height: 100vh;
 }
