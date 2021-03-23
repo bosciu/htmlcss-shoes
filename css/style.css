@@ -1,0 +1,29 @@
+/* Debug */
+
+
+/* /Debug */
+
+
+/* Common */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    height: 100vh;
+}
+
+#first {
+    background-color: red;
+}
+
+#second {
+    background-color: green;
+}
+
+#third {
+    background-color: yellow;
+}
